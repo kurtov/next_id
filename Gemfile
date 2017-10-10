@@ -5,4 +5,5 @@ git_source(:github) {|repo_name| "https://github.com/#{repo_name}" }
 # Specify your gem's dependencies in next_id.gemspec
 gemspec
 
-gem "activerecord-sqlanywhere-adapter", github: "Unact/activerecord-sqlanywhere-adapter", ref: "5e3d3af"
+gem 'sqlanywhere', github: 'springbok/sqlanywhere', branch: 'ruby22'
+gem 'activerecord-sqlanywhere-adapter', github: 'Unact/activerecord-sqlanywhere-adapter', branch: 'rails51'
